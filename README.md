@@ -51,3 +51,14 @@ int main() {
     voyellesMinMaj1104(tab);
     return 0;
 }
+
+#include <Arduino.h>
+int thermistance =A0;
+int led=3;
+float valeur=0;
+
+void setup() {
+  pinMode(thermistance,INPUT);
+  pinMode(led,INPUT);
+  Serial.begin(9600);
+}
