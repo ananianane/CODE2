@@ -59,6 +59,4 @@ float valeur=0;
 
 void setup() {
   pinMode(thermistance,INPUT);
-  pinMode(led,INPUT);
-  Serial.begin(9600);
-}
+  pinMode(led,INPUT);}
